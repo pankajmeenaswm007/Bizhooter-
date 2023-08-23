@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    margin: auto;
+    box-sizing: border-box;
+    font-family: var(--bs-body-font-family);
+   
+}
+
+
+/* last  */
+.bgend,
+.wow {
+    background-color: #485664;
+    color: white;
+}
+
+.subscribe {
+    background-color: #0ebd0e;
+    border: #0ebd0e;
+    color: white;
+}
+
+.icon {
+    color: white;
+
+
+}
+.icon:hover {
+    color: #0ebd0e;
+}
+
+.form-control1 {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height: 40px;
+}
+
+.form-control2 {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 40px;
+    background-color: #0ebd0e;
+}
+
+
+.term{
+    background-image: url("bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}

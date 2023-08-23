@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-family: 'Courier New', Courier, monospace; */
+
+}
+.container{
+    height: 70%;
+    width: 450px;
+    background: red;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    border-radius: 15px;
+    
+}
+.container h1{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    color: white;
+}
+
+.email label{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    color: white;
+    font-size: 25px;
+}
+
+.Email{
+    position: absolute;
+    top: 45%;
+    left: 27%;
+    color: white;
+    font-size: 20px;
+    border-radius: 3px;
+    border: none;
+    color: black;
+    
+}
+
+.password label{
+    position: absolute;
+    top: 55%;
+    left: 2%;
+    color: white;
+    font-size: 25px;
+}
+
+.password input{
+    position: absolute;
+    top: 55%;
+    left: 27%;
+    color: white;
+    font-size: 20px;
+    border-radius: 3px;
+    border: none;
+    color: black;
+    
+    
+}
+
+.email:focus{
+    top: -5%;
+}
